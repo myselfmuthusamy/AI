@@ -1,0 +1,8 @@
+import numpy as np
+from numpy import array
+v = array([1,2,3,4,5])
+print ("Population variance=", np.var(v, ddof=0))
+print ("Sample variance=", np.var(v, ddof=1))
+
+Population variance= 2.0
+Sample variance= 2.5
