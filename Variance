@@ -1,3 +1,8 @@
+In NumPy, the variance is calculated using var() function.
+By default, the var() function calculates the population variance. It has ddof argument is 0
+
+To calculate the sample variance we must specify ddof argument to 1
+
 import numpy as np
 from numpy import array
 v = array([1,2,3,4,5])
